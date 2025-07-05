@@ -1,0 +1,79 @@
+
+.navbar {
+    background: linear-gradient(-45deg, dodgerblue, rgb(119, 62, 226),rgb(120, 118, 118), dodgerblue);
+    animation: gradient  10s  ease infinite;
+     background-size: 400% 400%; 
+}
+@keyframes gradient{
+    0%{
+        background-position: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+}
+
+.nav-item a:hover{
+    text-decoration: underline;
+}
+
+.nav-link {
+    color: #fff !important;
+}
+
+.navbar-brand {
+    font-size: 45px;
+    font-weight: bolder;
+    color: white;
+}
+.navbar-brand:hover {
+    color: white;
+
+}
+
+
+.card {
+    margin-top: px;
+    border-radius: 20px;
+    max-width: 300px;
+    box-shadow: 10px 8px 6px rgba(29, 98, 162, 0.3);
+    max-height: 700px;
+    border-color: rgb(215, 225, 238);
+
+}
+
+.card-img-top {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    display: block;
+    margin-top: 20px;
+    border-radius: 50%
+}
+
+h3.gradient-text {
+    text-align: center;
+    background: linear-gradient(45deg, dodgerblue, rgb(60, 25, 141));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size:40px;
+    
+}
+ .a-gradient-text{
+    text-align: center;
+    background: linear-gradient(45deg, dodgerblue, rgb(45, 12, 123));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size:40px;
+    margin-top: 30px;
+
+}
+.btn:hover{
+  background: dodgerblue;
+  color:white;
+}
+
+ 
