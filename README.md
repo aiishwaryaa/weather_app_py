@@ -1,3 +1,4 @@
+HEAD
 # Weather App - Flask Version
 
 A weather application built with Python Flask that displays weather information for cities around the world.
@@ -72,3 +73,7 @@ Weather/
 - The app uses the Weather by API Ninjas service through RapidAPI
 - Make sure you have an active internet connection to fetch weather data
 - The API key is included in the code for demonstration purposes 
+=======
+# weather_app_py
+weather app using python
+>>>>>>> c522dd8282a31db3f78b4fe541cd381f5f542497
